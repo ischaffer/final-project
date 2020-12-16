@@ -1,0 +1,37 @@
+.page-area {
+    max-width: 768px;
+    display: inline-block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;
+    font-family: Tahoma, Arial;
+}
+
+
+.center {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .container .div.text-box {
+        margin: 10px;
+    }
+}
+
+.container div.text-box {
+    display: inline-block;
+    width: 100%;
+    max-width: 340px;
+    text-align: justify;
+    margin: 20px;
+}
+
+.container {
+    padding: 40px;
+    width: 100%;
+}

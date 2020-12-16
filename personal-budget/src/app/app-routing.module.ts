@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ConfigurebudgetsComponent } from './configurebudgets/configurebudgets.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ExpensesComponent } from './expenses/expenses.component';
+import { HeroComponent } from './hero/hero.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { LoginComponent } from './login/login.component';
 import { LogoutComponent } from './logout/logout.component';
@@ -42,6 +43,10 @@ const routes: Routes = [
   {
     path: 'signup',
     component: SignupComponent
+  },
+  {
+    path: 'hero',
+    component: HeroComponent
   }
 
 ];
